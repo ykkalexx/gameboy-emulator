@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "emu.h": "c",
+    "iostream": "cpp",
+    "xstring": "cpp",
+    "cstdint": "cpp"
+  }
+}
