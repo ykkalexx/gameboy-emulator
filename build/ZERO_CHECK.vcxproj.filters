@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\programming projectssss\gameboy-emulator\build\CMakeFiles\a376d9d574fb9a1c603a02d6c2b647a9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{882079D3-A5F2-3CF5-BA7F-FB8875B8E1F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

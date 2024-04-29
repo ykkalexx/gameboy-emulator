@@ -14,6 +14,7 @@ Timer -> keeps the timer process of the gameboy
 #include <cart.h>
 #include <cpu.h>
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_ttf.h>
 
 static EmuContext ctx;
 
@@ -42,6 +43,7 @@ int emu_init(int argc, char **argv) {
     SDL_Init(SDL_INIT_VIDEO);
     
     // TODO: install SDL Fonts
+    TTF_Init();
 
     // initialize the CPU
     cpu_init();

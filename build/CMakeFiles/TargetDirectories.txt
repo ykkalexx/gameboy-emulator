@@ -1,0 +1,7 @@
+C:/programming projectssss/gameboy-emulator/build/CMakeFiles/INSTALL.dir
+C:/programming projectssss/gameboy-emulator/build/CMakeFiles/ALL_BUILD.dir
+C:/programming projectssss/gameboy-emulator/build/CMakeFiles/ZERO_CHECK.dir
+C:/programming projectssss/gameboy-emulator/build/lib/CMakeFiles/emu.dir
+C:/programming projectssss/gameboy-emulator/build/lib/CMakeFiles/INSTALL.dir
+C:/programming projectssss/gameboy-emulator/build/gbcore/CMakeFiles/gbcore.dir
+C:/programming projectssss/gameboy-emulator/build/gbcore/CMakeFiles/INSTALL.dir

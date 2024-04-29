@@ -1,0 +1,669 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.9.8+b34f75857 for .NET Framework
+      Build started 29/04/2024 09:47:41.
+      
+      Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.39
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/programming projectssss/gameboy-emulator/build/CMakeFiles/3.29.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.9.8+b34f75857 for .NET Framework
+      Build started 29/04/2024 09:47:42.
+      
+      Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.38
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/programming projectssss/gameboy-emulator/build/CMakeFiles/3.29.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-nuvc0v"
+      binary: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-nuvc0v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-nuvc0v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e0b4b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 29/04/2024 09:47:43.
+        
+        Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuvc0v\\cmTC_e0b4b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e0b4b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuvc0v\\Debug\\".
+          Creating directory "cmTC_e0b4b.dir\\Debug\\cmTC_e0b4b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e0b4b.dir\\Debug\\cmTC_e0b4b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e0b4b.dir\\Debug\\cmTC_e0b4b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0b4b.dir\\Debug\\\\" /Fd"cmTC_e0b4b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0b4b.dir\\Debug\\\\" /Fd"cmTC_e0b4b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuvc0v\\Debug\\cmTC_e0b4b.exe" /INCREMENTAL /ILK:"cmTC_e0b4b.dir\\Debug\\cmTC_e0b4b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-nuvc0v/Debug/cmTC_e0b4b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-nuvc0v/Debug/cmTC_e0b4b.lib" /MACHINE:X64  /machine:x64 cmTC_e0b4b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e0b4b.vcxproj -> C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuvc0v\\Debug\\cmTC_e0b4b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e0b4b.dir\\Debug\\cmTC_e0b4b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e0b4b.dir\\Debug\\cmTC_e0b4b.tlog\\cmTC_e0b4b.lastbuildstate".
+        Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuvc0v\\cmTC_e0b4b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-q95ffg"
+      binary: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-q95ffg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-q95ffg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_af6d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 29/04/2024 09:47:43.
+        
+        Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q95ffg\\cmTC_af6d1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_af6d1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q95ffg\\Debug\\".
+          Creating directory "cmTC_af6d1.dir\\Debug\\cmTC_af6d1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_af6d1.dir\\Debug\\cmTC_af6d1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_af6d1.dir\\Debug\\cmTC_af6d1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_af6d1.dir\\Debug\\\\" /Fd"cmTC_af6d1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_af6d1.dir\\Debug\\\\" /Fd"cmTC_af6d1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q95ffg\\Debug\\cmTC_af6d1.exe" /INCREMENTAL /ILK:"cmTC_af6d1.dir\\Debug\\cmTC_af6d1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-q95ffg/Debug/cmTC_af6d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-q95ffg/Debug/cmTC_af6d1.lib" /MACHINE:X64  /machine:x64 cmTC_af6d1.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_af6d1.vcxproj -> C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q95ffg\\Debug\\cmTC_af6d1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_af6d1.dir\\Debug\\cmTC_af6d1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_af6d1.dir\\Debug\\cmTC_af6d1.tlog\\cmTC_af6d1.lastbuildstate".
+        Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q95ffg\\cmTC_af6d1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:24 (check_include_files)"
+      - "CMakeLists.txt:30 (ck_check_include_file)"
+    checks:
+      - "Looking for include file stdlib.h"
+    directories:
+      source: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-6e0poc"
+      binary: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-6e0poc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/programming projectssss/gameboy-emulator/cmake"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-6e0poc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bc25d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 29/04/2024 09:47:44.
+        
+        Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e0poc\\cmTC_bc25d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bc25d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e0poc\\Debug\\".
+          Creating directory "cmTC_bc25d.dir\\Debug\\cmTC_bc25d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bc25d.dir\\Debug\\cmTC_bc25d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bc25d.dir\\Debug\\cmTC_bc25d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc25d.dir\\Debug\\\\" /Fd"cmTC_bc25d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e0poc\\HAVE_STDLIB_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc25d.dir\\Debug\\\\" /Fd"cmTC_bc25d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e0poc\\HAVE_STDLIB_H.c"
+          HAVE_STDLIB_H.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e0poc\\Debug\\cmTC_bc25d.exe" /INCREMENTAL /ILK:"cmTC_bc25d.dir\\Debug\\cmTC_bc25d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-6e0poc/Debug/cmTC_bc25d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-6e0poc/Debug/cmTC_bc25d.lib" /MACHINE:X64  /machine:x64 cmTC_bc25d.dir\\Debug\\HAVE_STDLIB_H.obj
+          cmTC_bc25d.vcxproj -> C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e0poc\\Debug\\cmTC_bc25d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bc25d.dir\\Debug\\cmTC_bc25d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bc25d.dir\\Debug\\cmTC_bc25d.tlog\\cmTC_bc25d.lastbuildstate".
+        Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e0poc\\cmTC_bc25d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "CMakeLists.txt:36 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-9nb5sq"
+      binary: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-9nb5sq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/programming projectssss/gameboy-emulator/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-9nb5sq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d9d75.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 29/04/2024 09:47:45.
+        
+        Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nb5sq\\cmTC_d9d75.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d9d75.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nb5sq\\Debug\\".
+          Creating directory "cmTC_d9d75.dir\\Debug\\cmTC_d9d75.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d9d75.dir\\Debug\\cmTC_d9d75.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d9d75.dir\\Debug\\cmTC_d9d75.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9d75.dir\\Debug\\\\" /Fd"cmTC_d9d75.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nb5sq\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9d75.dir\\Debug\\\\" /Fd"cmTC_d9d75.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nb5sq\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nb5sq\\Debug\\cmTC_d9d75.exe" /INCREMENTAL /ILK:"cmTC_d9d75.dir\\Debug\\cmTC_d9d75.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-9nb5sq/Debug/cmTC_d9d75.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-9nb5sq/Debug/cmTC_d9d75.lib" /MACHINE:X64  /machine:x64 cmTC_d9d75.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d9d75.vcxproj -> C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nb5sq\\Debug\\cmTC_d9d75.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d9d75.dir\\Debug\\cmTC_d9d75.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d9d75.dir\\Debug\\cmTC_d9d75.tlog\\cmTC_d9d75.lastbuildstate".
+        Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9nb5sq\\cmTC_d9d75.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "CMakeLists.txt:36 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-claedp"
+      binary: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-claedp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/programming projectssss/gameboy-emulator/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-claedp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46a53.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 29/04/2024 09:47:45.
+        
+        Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-claedp\\cmTC_46a53.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_46a53.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-claedp\\Debug\\".
+          Creating directory "cmTC_46a53.dir\\Debug\\cmTC_46a53.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_46a53.dir\\Debug\\cmTC_46a53.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_46a53.dir\\Debug\\cmTC_46a53.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46a53.dir\\Debug\\\\" /Fd"cmTC_46a53.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-claedp\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46a53.dir\\Debug\\\\" /Fd"cmTC_46a53.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-claedp\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-claedp\\Debug\\cmTC_46a53.exe" /INCREMENTAL /ILK:"cmTC_46a53.dir\\Debug\\cmTC_46a53.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-claedp/Debug/cmTC_46a53.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-claedp/Debug/cmTC_46a53.lib" /MACHINE:X64  /machine:x64 cmTC_46a53.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_46a53.vcxproj -> C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-claedp\\Debug\\cmTC_46a53.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_46a53.dir\\Debug\\cmTC_46a53.tlog\\unsuccessfulbuild".
+          Touching "cmTC_46a53.dir\\Debug\\cmTC_46a53.tlog\\cmTC_46a53.lastbuildstate".
+        Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-claedp\\cmTC_46a53.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "CMakeLists.txt:36 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-fcgc0k"
+      binary: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-fcgc0k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/programming projectssss/gameboy-emulator/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-fcgc0k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f4b2f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 29/04/2024 09:47:46.
+        
+        Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcgc0k\\cmTC_f4b2f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f4b2f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcgc0k\\Debug\\".
+          Creating directory "cmTC_f4b2f.dir\\Debug\\cmTC_f4b2f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f4b2f.dir\\Debug\\cmTC_f4b2f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f4b2f.dir\\Debug\\cmTC_f4b2f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4b2f.dir\\Debug\\\\" /Fd"cmTC_f4b2f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcgc0k\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4b2f.dir\\Debug\\\\" /Fd"cmTC_f4b2f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcgc0k\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcgc0k\\Debug\\cmTC_f4b2f.exe" /INCREMENTAL /ILK:"cmTC_f4b2f.dir\\Debug\\cmTC_f4b2f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-fcgc0k/Debug/cmTC_f4b2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-fcgc0k/Debug/cmTC_f4b2f.lib" /MACHINE:X64  /machine:x64 cmTC_f4b2f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f4b2f.vcxproj -> C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcgc0k\\Debug\\cmTC_f4b2f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f4b2f.dir\\Debug\\cmTC_f4b2f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f4b2f.dir\\Debug\\cmTC_f4b2f.tlog\\cmTC_f4b2f.lastbuildstate".
+        Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcgc0k\\cmTC_f4b2f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:36 (check_type_size)"
+    checks:
+      - "Check size of intmax_t"
+    directories:
+      source: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-eg743r"
+      binary: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-eg743r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/programming projectssss/gameboy-emulator/cmake"
+    buildResult:
+      variable: "HAVE_INTMAX_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-eg743r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b681d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 29/04/2024 09:47:46.
+        
+        Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eg743r\\cmTC_b681d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b681d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eg743r\\Debug\\".
+          Creating directory "cmTC_b681d.dir\\Debug\\cmTC_b681d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b681d.dir\\Debug\\cmTC_b681d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b681d.dir\\Debug\\cmTC_b681d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b681d.dir\\Debug\\\\" /Fd"cmTC_b681d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eg743r\\INTMAX_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b681d.dir\\Debug\\\\" /Fd"cmTC_b681d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eg743r\\INTMAX_T.c"
+          INTMAX_T.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eg743r\\Debug\\cmTC_b681d.exe" /INCREMENTAL /ILK:"cmTC_b681d.dir\\Debug\\cmTC_b681d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-eg743r/Debug/cmTC_b681d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-eg743r/Debug/cmTC_b681d.lib" /MACHINE:X64  /machine:x64 cmTC_b681d.dir\\Debug\\INTMAX_T.obj
+          cmTC_b681d.vcxproj -> C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eg743r\\Debug\\cmTC_b681d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b681d.dir\\Debug\\cmTC_b681d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b681d.dir\\Debug\\cmTC_b681d.tlog\\cmTC_b681d.lastbuildstate".
+        Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eg743r\\cmTC_b681d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:37 (check_type_size)"
+    checks:
+      - "Check size of uintmax_t"
+    directories:
+      source: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-fi38td"
+      binary: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-fi38td"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/programming projectssss/gameboy-emulator/cmake"
+    buildResult:
+      variable: "HAVE_UINTMAX_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-fi38td'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2c19d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 29/04/2024 09:47:47.
+        
+        Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fi38td\\cmTC_2c19d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2c19d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fi38td\\Debug\\".
+          Creating directory "cmTC_2c19d.dir\\Debug\\cmTC_2c19d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2c19d.dir\\Debug\\cmTC_2c19d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2c19d.dir\\Debug\\cmTC_2c19d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c19d.dir\\Debug\\\\" /Fd"cmTC_2c19d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fi38td\\UINTMAX_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c19d.dir\\Debug\\\\" /Fd"cmTC_2c19d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fi38td\\UINTMAX_T.c"
+          UINTMAX_T.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fi38td\\Debug\\cmTC_2c19d.exe" /INCREMENTAL /ILK:"cmTC_2c19d.dir\\Debug\\cmTC_2c19d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-fi38td/Debug/cmTC_2c19d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-fi38td/Debug/cmTC_2c19d.lib" /MACHINE:X64  /machine:x64 cmTC_2c19d.dir\\Debug\\UINTMAX_T.obj
+          cmTC_2c19d.vcxproj -> C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fi38td\\Debug\\cmTC_2c19d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2c19d.dir\\Debug\\cmTC_2c19d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2c19d.dir\\Debug\\cmTC_2c19d.tlog\\cmTC_2c19d.lastbuildstate".
+        Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fi38td\\cmTC_2c19d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:39 (check_type_size)"
+    checks:
+      - "Check size of pid_t"
+    directories:
+      source: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-91bl3r"
+      binary: "C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-91bl3r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/programming projectssss/gameboy-emulator/cmake"
+    buildResult:
+      variable: "HAVE_PID_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/programming projectssss/gameboy-emulator/build/CMakeFiles/CMakeScratch/TryCompile-91bl3r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_574c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 29/04/2024 09:47:48.
+        
+        Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_574c4.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\Debug\\".
+          Creating directory "cmTC_574c4.dir\\Debug\\cmTC_574c4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_574c4.dir\\Debug\\cmTC_574c4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_574c4.dir\\Debug\\cmTC_574c4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_574c4.dir\\Debug\\\\" /Fd"cmTC_574c4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_574c4.dir\\Debug\\\\" /Fd"cmTC_574c4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c"
+          PID_T.c
+        C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c(29,12): error C2065: 'pid_t': undeclared identifier [C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj]
+        C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c(30,12): error C2065: 'pid_t': undeclared identifier [C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj]
+        C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c(31,12): error C2065: 'pid_t': undeclared identifier [C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj]
+        C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c(32,12): error C2065: 'pid_t': undeclared identifier [C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj]
+        C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c(33,12): error C2065: 'pid_t': undeclared identifier [C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj]
+        Done Building Project "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c(29,12): error C2065: 'pid_t': undeclared identifier [C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj]
+          C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c(30,12): error C2065: 'pid_t': undeclared identifier [C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj]
+          C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c(31,12): error C2065: 'pid_t': undeclared identifier [C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj]
+          C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c(32,12): error C2065: 'pid_t': undeclared identifier [C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj]
+          C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\PID_T.c(33,12): error C2065: 'pid_t': undeclared identifier [C:\\programming projectssss\\gameboy-emulator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-91bl3r\\cmTC_574c4.vcxproj]
+        
+            0 Warning(s)
+            5 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 1
+...

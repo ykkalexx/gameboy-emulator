@@ -20,10 +20,12 @@ struct Cart {
 
 static Cart ctx;
 
-// map used to look up the license name based on the id
-// this is a static map that is only used in this file
-// so it is defined here and not in the header file
-// this information is taken from the GBATEK documentation
+/*
+    map used to look up the license name based on the id
+    this is a static map that is only used in this file
+    so it is defined here and not in the header file
+    this information is taken from the GBATEK documentation
+*/
 static const std::map<int, std::string> licenseCode =
 {
     {0x00, "None"},
@@ -89,10 +91,12 @@ static const std::map<int, std::string> licenseCode =
     {0xA4, "Konami (Yu-Gi-Oh!)"}
 };
 
-// array used to look up the rom type based on the id
-// this is a static array that is only used in this file
-// so it is defined here and not in the header file
-// this information is taken from the gbdev.io documentation
+/*
+    array used to look up the rom type based on the id
+    this is a static array that is only used in this file
+    so it is defined here and not in the header file
+    this information is taken from the GBATEK documentation
+*/
 static const char *romTypes[] = {
     "ROM ONLY",
     "MBC1",
@@ -182,6 +186,11 @@ bool cart_load(char *cart) {
     std::cout << "ROM Size: " << (32 << ctx.header->romSize) << "KB" << std::endl;
     std::cout << "RAM Size: " << (ctx.header->ramSize == 0 ? 0 : 1 << (ctx.header->ramSize + 3)) << "KB" << std::endl;
 
+    /*
+        taken from the GBATEK documentation, we running a checksum on the header
+        the checksum is calculated by x = 0, then x = x - byte - 1 for each byte in the header
+        the result should be the same as the header checksum
+    */
     uint16_t x = 0;
     for(uint16_t i = 0x0134; i<=0x014C; i++) {
         x = x - ctx.romData[i] - 1;
