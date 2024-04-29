@@ -157,9 +157,9 @@ const char *cart_type_name() {
     return "Unknown";
 }
 
-bool cart_load(char *cart) {
+bool cart_load(const char *cart) {
     snprintf(ctx.filename, sizeof(ctx.filename), "%s", cart);
-    FILE *fp = fopen(cart, "r");
+    FILE *fp = fopen(cart, "rb");
     if(!fp) {
         std::cout << "Error: Could not open file " << cart << std::endl;
         return false;
